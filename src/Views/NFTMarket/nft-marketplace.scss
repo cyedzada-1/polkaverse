@@ -1,0 +1,62 @@
+.nft-market-place{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: space-around;
+    grid-row-gap:40px;
+}
+.background-nft{
+    background: #401A5D;
+    h2{
+        color: white;
+     font-size: 33px;
+    }
+    .nav-bar{
+        .header-ul{
+            top:35% !important;
+            z-index: 900;
+        }
+    }
+    .drop-btn{
+        .drop-down{
+            // top: 20%;
+            right: 48%;
+        }
+    }
+    .dropbtn2{
+        .drop-down2{
+            // top: 20%;
+            right: 26%;
+        }
+    }
+  
+}
+.image-card{
+    width: 70%;
+    border-radius: 13px;
+    cursor: pointer;
+    transition: all 3s ease;
+    &:hover {
+        transform: scale(1.1);
+        
+      }
+}
+.slick-dots{
+    display: none !important;
+}
+.slick-prev{
+    display: none !important;
+}
+.slick-next{
+    display: none !important;
+}
+@media screen and (max-width:680px){
+.nft-market-place{
+    display: grid;
+    grid-template-columns: auto auto !important;
+    justify-content: space-around;
+    margin-left: 30px !important;
+}
+
+
+   
+}

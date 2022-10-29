@@ -1,0 +1,101 @@
+.App {
+  text-align: center;
+}
+
+@font-face {
+  font-family: 'fontname';
+  src: url('./assets/fonts/GothicA1-Light.ttf');
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+body{
+  font-family: 'fontname';
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+html {
+  scroll-behavior: smooth;
+}
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+button{
+  cursor: pointer;
+}
+.circle {
+  position: fixed;
+  display: none;
+  bottom: 10px;
+  width: 14px;
+  cursor: pointer;
+  right: 1%;
+  height: 14px;
+  border-radius: 50%;
+  font-size: 17px;
+  color: #fff;
+  background: #6DE0F5;
+  padding:20px;
+  text-align:center;
+  vertical-align: middle;
+  box-shadow: 0px 0px 3px #000;
+  z-index: 1000;
+}
+
+/* h1 {
+  text-align:center
+} */
+
+.list li {
+  list-style: none;
+  margin: 10px 0;
+  padding:10px
+}
+@media screen and (max-width:680px){
+  .circle {
+    position: fixed;
+    display: none;
+    cursor: pointer;
+    bottom: 10px;
+    width: 14px;
+    right: 1%;
+    height: 14px;
+    border-radius: 50%;
+    font-size: 17px;
+    color: #fff;
+    background: #6DE0F5;
+    padding:20px;
+    text-align:center;
+    vertical-align: middle;
+    box-shadow: 0px 0px 3px #000;
+    z-index: 1000;
+  }
+  
+}
+/* li:nth-child(2n){
+  background: #ccc;
+} */

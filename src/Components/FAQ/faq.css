@@ -1,0 +1,41 @@
+.faq{
+    display: grid;
+    grid-template-columns: 48% 48%;
+    padding-top: 50px;
+    margin-bottom: 11pc;
+  }
+  .faq p{
+    color: black;
+  }
+  .faq-question{
+    line-height: 1.5;
+  }
+  .faq-question p{
+    font-size: 18px;
+    color: black;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  .faq-question p:hover{
+    color:#747ED1;
+  }
+  .faq-question span{
+    font-size: 18px;
+    color:grey;
+  }
+  .MuiAccordionSummary-root{
+    padding: 0 !important;
+    min-height: 57px !important;
+  }
+  .MuiAccordion-root{
+    position: inherit !important;
+  }
+  .MuiPaper-elevation1{
+    box-shadow: none !important;
+  }
+  .heading{
+    color: black;
+  }
+  .heading:hover{
+    color: red;
+  }

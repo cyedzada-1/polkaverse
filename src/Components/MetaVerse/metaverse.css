@@ -1,0 +1,32 @@
+.metaverse{
+    line-height: 1.7;
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: 59% 38%;
+    align-items: center;
+    padding-top: 60px;
+    padding-bottom: 47px;
+    overflow-x: hidden
+}
+.metaverse h2{
+    color: white;
+}
+@media screen and (max-width:680px){
+   .metaverse{
+    display: grid;
+    grid-template-columns: 100%;
+    padding:15px;
+   }
+   .metaverse h2{
+       text-align: center;
+
+   }
+
+}
+/* @media screen and (max-width:767px){
+    .metaverse{
+        display: grid;
+        justify-content: space-between;
+        grid-template-columns: 59% 38%;
+    }
+} */

@@ -1,0 +1,109 @@
+.rocket-image2{
+    /* background-image: url('../../assets//Images/working.png'); */
+    background-size: cover;
+    /* height: 700px; */
+    padding-top: 10pc;
+    padding-bottom: 10pc;
+    position: relative;
+    background-image: linear-gradient(to left, #742994 , #742994 );
+    overflow-x: hidden;
+  }
+
+  .small-images-div{
+    display: grid;
+    grid-template-columns: 48% 48%;
+    justify-content: space-between;
+  }
+  .ab-position-div{
+    display: flex;
+  }
+  .side-images{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .rocket-heading{
+    color: white;
+    font-size: 37px;
+    margin-top: 14px;
+    margin-bottom: 13px;
+  }
+  .rocket-info{
+    font-size: 1.3rem;
+    line-height: 1.7;
+    font-weight: 500;
+  }
+  .stats-div{
+    display: grid;
+    width: 100%;
+    grid-template-columns: 24% 24% 24%;
+    justify-content: space-around;
+    margin-top: 35px;
+  }
+  .stats-div h1{
+    color: #747ed1!important;
+    font-size: 20px;
+  }
+  @media screen and (max-width:680px){
+    .stats-div h1{
+      color: white !important;
+    }
+  }
+  .stats-div p{
+    font-size: 1.3rem;
+    line-height: 1.7;
+    font-weight: 500;
+  }
+  .countup{
+    background: black;
+    color: red;
+    padding: 10px;
+    border-radius: 54px;
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    left: 21%;
+    top: 46%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 28px;
+  }
+.active-tab{
+  border-bottom: 5px solid #49C0DE;
+  color: white;
+  font-size: 23px;
+  margin-top: 14px;
+  margin-bottom: 13px;
+  padding-bottom: 10px;
+  cursor: pointer;
+}
+.not-active{
+  border-bottom: none;
+  color: white;
+  font-size: 23px;
+  margin-top: 14px;
+  margin-bottom: 13px;
+  padding-bottom: 10px;
+  cursor: pointer;
+}
+.active-content{
+  display: block;
+}
+.hide-content{
+  display: none;
+}
+.nft-heading{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 50%;
+}
+.view-card{
+  background: #747ED1;
+    border: none;
+    color: white;
+    padding: 14px 30px;
+    border-radius: 16px;
+    font-size: 16px;
+}

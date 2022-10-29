@@ -1,0 +1,32 @@
+.partner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.partner-pics{
+    width: 40%;
+    height: 400px;
+}
+.partner-heading{
+    text-align: center;
+    font-size: 37px;
+    margin-top: 0;
+    padding-top: 36px;
+    color: white;
+}
+.our-partners{
+    /* background: #35215B; */
+    position: relative;
+    height: 422px;
+    background: linear-gradient(to top, #5C2487, #37075E);
+}
+@media screen and (max-width:680px){
+    .partner{
+        display:flex;
+        justify-content: space-between;
+    }
+    .partner-pics{
+        width: 100% !important;
+    }
+   
+}
