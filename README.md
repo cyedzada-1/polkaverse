@@ -1,2 +1,2 @@
-# polkaverse
-javascript
+# polkaverse is NFT gamining website 
+
